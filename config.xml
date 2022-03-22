@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.taizejs" version="3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Taizé</name>
+    
+    <description>
+        Sigue la oración semanal de Taize.fr, con cantos de Youtube. 
+        
+        Información para instalar en Android: https://github.com/luisgentil/*****/README.md
+    </description>
+    
+    <author email="cursofactor@gmail.com" href="http://pilgrim.neocities.org">
+        Luis Gentil
+    </author>
+    <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" />
+    <platform name="android">    
+      <icon src="icon.png" />
+      <icon src="icon.png"   gap:platform="android"    gap:qualifier="ldpi" />
+      <icon src="icon.png"   gap:platform="android"    gap:qualifier="mdpi" />
+      <icon src="icon.png"   gap:platform="android"    gap:qualifier="hdpi" />
+      <icon src="icon.png"   gap:platform="android"    gap:qualifier="xhdpi" />
+    </platform>
+    
+    <content src="index.html" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" version="1"/>
+</widget>
