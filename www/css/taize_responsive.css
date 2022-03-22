@@ -1,0 +1,33 @@
+/* version: 3 */
+/* Add a breakpoint at max-width: 670px */
+@media (max-width: 450px) {
+.jumbotron {
+  padding: 1rem;
+  background-color: lime;
+}
+
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.lead{
+  font-size: 1rem;
+}
+
+
+.botonera{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.seis {
+  display: none;
+}
+
+#boton_comenzar{
+  margin-top: 0px;
+}
+
+}
+

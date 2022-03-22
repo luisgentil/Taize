@@ -1,0 +1,1 @@
+localStorage.elIdioma =  "es"; 
